@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:24:22.152Z",
+        "line": 3,
+        "name": "Purchase done fast",
+        "description": "",
+        "id": "purchase-a-product;purchase-done-fast",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30096796600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the testmeapp and logs in",
+            "match": {
+              "location": "C5.user_enters_the_testmeapp_and_logs_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27207171100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search for a product in search engine",
+            "match": {
+              "location": "C5.user_search_for_a_product_in_search_engine()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User purchases the product",
+            "match": {
+              "location": "C5.user_purchases_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase a product",
+    "description": "",
+    "id": "purchase-a-product",
+    "keyword": "Feature",
+    "uri": "classpath:c5/c5.feature",
+    "tags": []
+  }
+]
